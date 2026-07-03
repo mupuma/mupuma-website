@@ -143,7 +143,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'John Mukuka',
     company: 'Zambezi Holdings',
     rating: 5,
-    companyLogo: '/images/sage1.png'
+    companyLogo: 'images/sage1.png'
   },
   {
     id: 2,
@@ -151,7 +151,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'Sarah Mwansa',
     company: 'Lusaka Tech Solutions',
     rating: 5,
-    companyLogo: '/images/napsa.png'
+    companyLogo: 'images/napsa.png'
   },
   {
     id: 3,
@@ -159,7 +159,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'Michael Banda',
     company: 'Copperbelt Manufacturing',
     rating: 4,
-    companyLogo: '/images/nhima.png'
+    companyLogo: 'images/nhima.png'
   }
 ];
 
@@ -206,56 +206,56 @@ const PARTNERS_DATA: Partner[] = [
     id: 1,
     name: 'Sage',
     description: 'Global leader in business management software and accounting solutions.',
-    logo: '/images/sage1.png',
+    logo: 'images/sage1.png',
     website: 'https://www.sage.com'
   },
   {
     id: 2,
     name: 'NAPSA',
     description: 'National Pension Scheme Authority partner for payroll solutions.',
-    logo: '/images/napsa.png',
+    logo: 'images/napsa.png',
     website: 'https://www.napsa.co.zm'
   },
   {
     id: 3,
     name: 'NHIMA',
     description: 'Healthcare management and insurance integration partner.',
-    logo: '/images/nhima.png',
+    logo: 'images/nhima.png',
     website: 'https://www.nhima.zm'
   },
   {
     id: 4,
     name: 'NPA',
     description: 'Port authority and logistics integration partner.',
-    logo: '/images/npa.jpeg',
+    logo: 'images/npa.jpeg',
     website: 'https://www.npa.com.zm'
   },
   {
     id: 5,
     name: 'Infratel',
     description: 'Telecommunications and IT infrastructure partner.',
-    logo: '/images/infratel.png',
+    logo: 'images/infratel.png',
     website: 'https://www.infratel.zm'
   },
   {
     id: 6,
     name: 'Prospero',
     description: 'Business solutions and consulting partner.',
-    logo: '/images/prospero.png',
+    logo: 'images/prospero.png',
     website: 'https://www.prospero.zm'
   },
   {
     id: 7,
     name: 'Zampost',
     description: 'Postal and courier services integration.',
-    logo: '/images/zampost.png',
+    logo: 'images/zampost.png',
     website: 'https://www.zampost.zm'
   },
   {
     id: 8,
     name: 'ZDA',
     description: 'Development agency and grants administration partner.',
-    logo: '/images/zda.png',
+    logo: 'images/zda.png',
     website: 'https://www.zda.org.zm'
   }
 ];
@@ -564,7 +564,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         <Link to="/" className="navbar-brand d-flex align-items-center">
           <img
-            src="/images/logo.png"
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
             alt="Mupuma Logo"
             className="me-2"
             style={{ maxHeight: '40px' }}
@@ -933,7 +933,7 @@ const HomePage: React.FC = () => {
             y: videoY,
           }}
         >
-          <source src="/images/VID-20250718-WA0002.mp4" type="video/mp4" />
+          <source src="images/VID-20250718-WA0002.mp4" type="video/mp4" />
         </motion.video>
 
         <motion.div
@@ -1199,7 +1199,7 @@ const AboutPage: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <img 
-            src="images/brd2.jpg" 
+            src="{`${import.meta.env.BASE_URL}images/brd2.jpg`}" 
             alt="About Mupuma" 
             className="img-fluid rounded shadow"
           />
@@ -1242,7 +1242,7 @@ const ServicesPage: React.FC = () => {
         transition={{ duration: 0.5 }}
       >
         <video width="100%" height="auto" controls className="w-100" style={{ maxHeight: '600px', objectFit: 'cover' }}>
-          <source src="/images/VID-20250718-WA0002.mp4" type="video/mp4" />
+          <source src="images/VID-20250718-WA0002.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </motion.div>
