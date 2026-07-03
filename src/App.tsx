@@ -676,7 +676,7 @@ const Footer: React.FC = () => {
           <div className="col-lg-4">
             <h6 className="fw-bold mb-3 text-white">Contact</h6>
             <ul className="list-unstyled text-white">
-              <li className="mb-2"><i className="fas fa-map-marker-alt me-2 text-primary"></i> Lusaka, Zambia</li>
+              <li className="mb-2"><i className="fas fa-map-marker-alt me-2 text-primary"></i> Plot 16 500 Lusaka, Zambia</li>
               <li className="mb-2"><i className="fas fa-phone me-2 text-primary"></i> +260 977 795 334</li>
               <li className="mb-2"><i className="fas fa-envelope me-2 text-primary"></i> info@mupuma.com</li>
               <li className="mb-2"><i className="fas fa-clock me-2 text-primary"></i> Mon-Fri: 8:00 AM - 5:00 PM</li>
