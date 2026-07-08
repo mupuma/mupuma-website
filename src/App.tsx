@@ -1206,7 +1206,7 @@ const AboutPage: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <img 
-            src="{`${import.meta.env.BASE_URL}images/brd2.jpg`}" 
+            src={`${import.meta.env.BASE_URL}images/brd.jpg`}
             alt="About Mupuma" 
             className="img-fluid rounded shadow"
           />
