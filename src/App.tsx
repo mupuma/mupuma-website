@@ -169,14 +169,14 @@ const TEAM_DATA: TeamMember[] = [
     name: 'Shem Sinkala',
     role: 'Director & Lead Consultant',
     photo: `${import.meta.env.BASE_URL}images/testimonials/shem.jpg`,
-    bio: 'With over 20 years of experience in business technology, Dr. Mwale leads our strategic vision.'
+    bio: 'With over 20 years of experience in business technology and ERP Implementation, Mr Shem Sinkala leads our strategic vision.'
   },
   {
     id: 2,
     name: 'Litia Maboshe',
     role: 'Director & Senior Consultant',
     photo: `${import.meta.env.BASE_URL}images/testimonials/litia.jpeg`,
-    bio: 'Certified ERP specialist with extensive experience in Oracle and Sage implementations.'
+    bio: 'Certified ERP specialist with extensive experience in Sage implementations and IT Product Delivery.'
   },
   {
     id: 3,
@@ -190,7 +190,7 @@ const TEAM_DATA: TeamMember[] = [
     name: 'Cheushi Mwangala',
     role: 'Administrative Associate',
     photo: `${import.meta.env.BASE_URL}images/testimonials/cheushi.jpeg`,
-    bio: 'Full-stack developer with a focus on enterprise-scale applications and cloud infrastructure.'
+    bio: 'Administrative Associate with Focus on Handling Administrative tasks.'
   },
   {
     id: 5,
