@@ -175,29 +175,36 @@ const TEAM_DATA: TeamMember[] = [
     id: 2,
     name: 'Litia Maboshe',
     role: 'Director & Senior Consultant',
-    photo: `${import.meta.env.BASE_URL}images/testimonials/litia.jpg`,
+    photo: `${import.meta.env.BASE_URL}images/testimonials/litia.jpeg`,
     bio: 'Certified ERP specialist with extensive experience in Oracle and Sage implementations.'
   },
   {
     id: 3,
     name: 'Isaac Sindazi',
     role: 'Manager - ERP & Development',
-    photo: `${import.meta.env.BASE_URL}images/testimonials/isaac.jpg`,
+    photo: `${import.meta.env.BASE_URL}images/testimonials/isaac.jpeg`,
     bio: 'Expert in business process optimization and digital transformation strategies.'
   },
   {
     id: 4,
     name: 'Cheushi Mwangala',
     role: 'Administrative Associate',
-    photo: `${import.meta.env.BASE_URL}images/testimonials/cheushi.jpg`,
+    photo: `${import.meta.env.BASE_URL}images/testimonials/cheushi.jpeg`,
     bio: 'Full-stack developer with a focus on enterprise-scale applications and cloud infrastructure.'
   },
   {
     id: 5,
     name: 'Brighton Banda',
     role: 'Senior Developer',
-    photo: `${import.meta.env.BASE_URL}images/testimonials/brighton.jpg`,
+    photo: `${import.meta.env.BASE_URL}images/testimonials/brighton.jpeg`,
     bio: 'Full-stack developer with a focus on enterprise-scale applications and cloud infrastructure.'
+  },
+  {
+    id: 6,
+    name: 'Christopher Njovu',
+    role: 'Office Coordinator',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/chris.jpeg`,
+    bio: 'manages the day-to-day operations and administrative procedures of a workplace.'
   }
 ];
 
