@@ -110,25 +110,25 @@ const SOLUTIONS_DATA: Solution[] = [
     id: 1,
     title: 'IT Services',
     description: 'Streamline production, inventory, and supply chain management.',
-    image: 'images/sol4.jpg'
+    image: `${import.meta.env.BASE_URL}images/sol4.jpg`
   },
   {
     id: 2,
     title: 'ERP Consulting',
     description: 'Optimize point-of-sale, inventory, and customer relationship management.',
-    image: 'images/sol5.jpg'
+    image: `${import.meta.env.BASE_URL}images/sol5.jpg`
   },
   {
     id: 3,
     title: 'Training and Support',
     description: 'Enhance patient care with integrated healthcare management systems.',
-    image: 'images/sol3.jpg'
+    image: `${import.meta.env.BASE_URL}images/sol3.jpg`
   },
   {
     id: 4,
     title: 'Administrative Services',
     description: 'Secure, compliant solutions for banking and financial institutions.',
-    image: 'images/sol1.jpg'
+    image: `${import.meta.env.BASE_URL}images/sol1.jpg`
   }
 ];
 
@@ -143,7 +143,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'John Mukuka',
     company: 'Zambezi Holdings',
     rating: 5,
-    companyLogo: 'images/sage1.png'
+    companyLogo: `${import.meta.env.BASE_URL}images/sage1.png`
   },
   {
     id: 2,
@@ -151,7 +151,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'Sarah Mwansa',
     company: 'Lusaka Tech Solutions',
     rating: 5,
-    companyLogo: 'images/napsa.png'
+    companyLogo: `${import.meta.env.BASE_URL}images/napsa.png`
   },
   {
     id: 3,
@@ -159,7 +159,7 @@ const TESTIMONIALS_DATA: TestimonialWithLogo[] = [
     author: 'Michael Banda',
     company: 'Copperbelt Manufacturing',
     rating: 4,
-    companyLogo: 'images/nhima.png'
+    companyLogo: `${import.meta.env.BASE_URL}images/nhima.png`
   }
 ];
 
@@ -168,35 +168,35 @@ const TEAM_DATA: TeamMember[] = [
     id: 1,
     name: 'Shem Sinkala',
     role: 'Director & Lead Consultant',
-    photo: 'images/testimonials/shem.jpg',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/shem.jpg`,
     bio: 'With over 20 years of experience in business technology, Dr. Mwale leads our strategic vision.'
   },
   {
     id: 2,
     name: 'Litia Maboshe',
     role: 'Director & Senior Consultant',
-    photo: 'images/testimonials/litia.jpg',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/litia.jpg`,
     bio: 'Certified ERP specialist with extensive experience in Oracle and Sage implementations.'
   },
   {
     id: 3,
     name: 'Isaac Sindazi',
     role: 'Manager - ERP & Development',
-    photo: 'images/testimonials/isaac.jpg',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/isaac.jpg`,
     bio: 'Expert in business process optimization and digital transformation strategies.'
   },
   {
     id: 4,
     name: 'Cheushi Mwangala',
     role: 'Administrative Associate',
-    photo: 'images/testimonials/cheushi.jpg',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/cheushi.jpg`,
     bio: 'Full-stack developer with a focus on enterprise-scale applications and cloud infrastructure.'
   },
   {
     id: 5,
     name: 'Brighton Banda',
     role: 'Senior Developer',
-    photo: 'images/testimonials/brighton.jpg',
+    photo: `${import.meta.env.BASE_URL}images/testimonials/brighton.jpg`,
     bio: 'Full-stack developer with a focus on enterprise-scale applications and cloud infrastructure.'
   }
 ];
@@ -206,56 +206,56 @@ const PARTNERS_DATA: Partner[] = [
     id: 1,
     name: 'Sage',
     description: 'Global leader in business management software and accounting solutions.',
-    logo: 'images/sage1.png',
+    logo: `${import.meta.env.BASE_URL}images/sage1.png`,
     website: 'https://www.sage.com'
   },
   {
     id: 2,
     name: 'NAPSA',
     description: 'National Pension Scheme Authority partner for payroll solutions.',
-    logo: 'images/napsa.png',
+    logo: `${import.meta.env.BASE_URL}images/napsa.png`,
     website: 'https://www.napsa.co.zm'
   },
   {
     id: 3,
     name: 'NHIMA',
     description: 'Healthcare management and insurance integration partner.',
-    logo: 'images/nhima.png',
+    logo: `${import.meta.env.BASE_URL}images/nhima.png`,
     website: 'https://www.nhima.zm'
   },
   {
     id: 4,
     name: 'NPA',
     description: 'Port authority and logistics integration partner.',
-    logo: 'images/npa.jpeg',
+    logo: `${import.meta.env.BASE_URL}images/npa.jpeg`,
     website: 'https://www.npa.com.zm'
   },
   {
     id: 5,
     name: 'Infratel',
     description: 'Telecommunications and IT infrastructure partner.',
-    logo: 'images/infratel.png',
+    logo: `${import.meta.env.BASE_URL}images/infratel.png`,
     website: 'https://www.infratel.zm'
   },
   {
     id: 6,
     name: 'Prospero',
     description: 'Business solutions and consulting partner.',
-    logo: 'images/prospero.png',
+    logo: `${import.meta.env.BASE_URL}images/prospero.png`,
     website: 'https://www.prospero.zm'
   },
   {
     id: 7,
     name: 'Zampost',
     description: 'Postal and courier services integration.',
-    logo: 'images/zampost.png',
+    logo: `${import.meta.env.BASE_URL}images/zampost.png`,
     website: 'https://www.zampost.zm'
   },
   {
     id: 8,
     name: 'ZDA',
     description: 'Development agency and grants administration partner.',
-    logo: 'images/zda.png',
+    logo: `${import.meta.env.BASE_URL}images/zda.png`,
     website: 'https://www.zda.org.zm'
   }
 ];
@@ -265,7 +265,7 @@ const BLOG_DATA: BlogPost[] = [
     id: 1,
     title: 'The Future of ERP in Zambia',
     excerpt: 'Exploring how ERP systems are transforming businesses across the continent.',
-    image: 'images/blog1.jpg',
+    image: `${import.meta.env.BASE_URL}images/blog1.jpg`,
     date: '2026-06-15',
     author: 'Dr. Chanda Tembo'
   },
@@ -273,7 +273,7 @@ const BLOG_DATA: BlogPost[] = [
     id: 2,
     title: 'Digital Transformation Strategies',
     excerpt: 'Key considerations for successful digital transformation in traditional industries.',
-    image: 'images/blog2.jpg',
+    image: `${import.meta.env.BASE_URL}images/blog2.jpg`,
     date: '2026-06-10',
     author: 'Mulenga Phiri'
   },
@@ -281,7 +281,7 @@ const BLOG_DATA: BlogPost[] = [
     id: 3,
     title: 'Cloud Migration Best Practices',
     excerpt: 'A comprehensive guide to moving your business operations to the cloud securely.',
-    image: 'images/sage1.png',
+    image: `${import.meta.env.BASE_URL}images/sage1.png`,
     date: '2026-06-05',
     author: 'Mufechi Chileshe'
   }
@@ -933,7 +933,7 @@ const HomePage: React.FC = () => {
             y: videoY,
           }}
         >
-          <source src="images/VID-20250718-WA0002.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}images/VID-20250718-WA0002.mp4`} type="video/mp4" />
         </motion.video>
 
         <motion.div
@@ -1024,7 +1024,7 @@ const HomePage: React.FC = () => {
       <div className="py-5" style={{ background: 'linear-gradient(135deg, #10131a, #1c2230)' }}>
         <div className="container">
           <div className="row g-4">
-            <StatCounter end={12} suffix="+" label="Years of Experience" delay={0} />
+            <StatCounter end={13} suffix="+" label="Years of Experience" delay={0} />
             <StatCounter end={150} suffix="+" label="Projects Delivered" delay={0.1} />
             <StatCounter end={40} suffix="+" label="Active Clients" delay={0.2} />
             <StatCounter end={8} suffix="+" label="Strategic Partners" delay={0.3} />
@@ -1242,7 +1242,7 @@ const ServicesPage: React.FC = () => {
         transition={{ duration: 0.5 }}
       >
         <video width="100%" height="auto" controls className="w-100" style={{ maxHeight: '600px', objectFit: 'cover' }}>
-          <source src="images/VID-20250718-WA0002.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}images/VID-20250718-WA0002.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </motion.div>
