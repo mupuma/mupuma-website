@@ -233,8 +233,8 @@ const PARTNERS_DATA: Partner[] = [
   {id: 4,
     name: 'ITALIAN SCHOOl OF LUSAKA',
     description: 'Italian school in Lusaka.',
-    logo: `${import.meta.env.BASE_URL}images/italianschool.png`,
-    website: 'https://www.italianschool.zm'
+    logo: `${import.meta.env.BASE_URL}images/italianlogo.png`,
+    website: 'https://italianschool.sch.zm/'
   },
   {
     id: 5,
@@ -276,9 +276,45 @@ const PARTNERS_DATA: Partner[] = [
     name: 'ECZ',
     description: 'Examinsations Council of Zambia',
     logo: `${import.meta.env.BASE_URL}images/eczlogo.png`,
-    website: 'https://www.ecz.zm'
+    website: 'https://serviceportal.exams-council.org.zm/'
+  },
+  {
+    id: 11,
+    name: 'DAPP',
+    description: 'Development Aid from People to People',
+    logo: `${import.meta.env.BASE_URL}images/dapplogo.jpg`,
+    website: 'https://www.dapp.org.zm'
+  },
+  {
+    id: 12,
+    name: 'Mulungushi Village Complex Limited',
+    description: 'Real estate and property development partner.',
+    logo: `${import.meta.env.BASE_URL}images/mvcl.png`,
+    website: 'https://www.mvcl.co.zm/'
+  },
+  {
+    id: 13,
+    name: 'Zambia Railways Limited',
+    description: 'Taxation and revenue collection partner.',
+    logo: `${import.meta.env.BASE_URL}images/zedrail.png`,
+    website: 'https://zrl.com.zm/'
+  },
+  {
+    id: 14,
+    name: 'WARMA',
+    description: 'Water Resources Management Authority',
+    logo: `${import.meta.env.BASE_URL}images/warmalogo.png`,
+    website: 'https://www.warma.org.zm/'
+  },
+  {
+    id: 15,
+    name: 'FamilyLegacy',
+    description: 'Family legacy and estate planning partner.',
+    logo: `${import.meta.env.BASE_URL}images/familylegacy.png`,
+    website: 'https://www.familylegacy.zm'
   }
 ];
+
 
 const BLOG_DATA: BlogPost[] = [
   {
