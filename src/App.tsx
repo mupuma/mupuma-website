@@ -211,7 +211,7 @@ const TEAM_DATA: TeamMember[] = [
 const PARTNERS_DATA: Partner[] = [
   {
     id: 1,
-    name: 'Sage',
+    name: 'Sage300 ERP',
     description: 'Global leader in business management software and accounting solutions.',
     logo: `${import.meta.env.BASE_URL}images/sage1.png`,
     website: 'https://www.sage.com'
@@ -230,40 +230,53 @@ const PARTNERS_DATA: Partner[] = [
     logo: `${import.meta.env.BASE_URL}images/nhima.png`,
     website: 'https://www.nhima.zm'
   },
+  {id: 4,
+    name: 'ITALIAN SCHOOl OF LUSAKA',
+    description: 'Italian school in Lusaka.',
+    logo: `${import.meta.env.BASE_URL}images/italianschool.png`,
+    website: 'https://www.italianschool.zm'
+  },
   {
-    id: 4,
+    id: 5,
     name: 'NPA',
     description: 'Port authority and logistics integration partner.',
     logo: `${import.meta.env.BASE_URL}images/npa.jpeg`,
     website: 'https://www.npa.com.zm'
   },
   {
-    id: 5,
+    id: 6,
     name: 'Infratel',
     description: 'Telecommunications and IT infrastructure partner.',
     logo: `${import.meta.env.BASE_URL}images/infratel.png`,
     website: 'https://www.infratel.zm'
   },
   {
-    id: 6,
+    id: 7,
     name: 'Prospero',
     description: 'Business solutions and consulting partner.',
     logo: `${import.meta.env.BASE_URL}images/prospero.png`,
     website: 'https://www.prospero.zm'
   },
   {
-    id: 7,
+    id: 8,
     name: 'Zampost',
     description: 'Postal and courier services integration.',
     logo: `${import.meta.env.BASE_URL}images/zampost.png`,
     website: 'https://www.zampost.zm'
   },
   {
-    id: 8,
+    id: 9,
     name: 'ZDA',
     description: 'Development agency and grants administration partner.',
     logo: `${import.meta.env.BASE_URL}images/zda.png`,
     website: 'https://www.zda.org.zm'
+  },
+  {
+    id: 10,
+    name: 'ECZ',
+    description: 'Examinsations Council of Zambia',
+    logo: `${import.meta.env.BASE_URL}images/eczlogo.png`,
+    website: 'https://www.ecz.zm'
   }
 ];
 
